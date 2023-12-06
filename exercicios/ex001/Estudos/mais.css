@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(to left, pink, purple, blue );
+    background-position: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    background-size: cover;
+    backdrop-filter: blur 100% ;
+    margin: 0; 
+ }
+ p{
+    margin-left: 21px;
+    text-align:justify;
+    margin-right: 21px;
+ }
+ h2{
+    margin-left: 21px;
+ }
+.htmlLogo{
+    border-radius: 10px;
+    text-align: center;
+}
+.cssLogo{
+    position: relative;
+    left: 250px;
+    box-shadow: white 3px 2px 6px;
+}
+.jsLogo{
+    position: relative;
+    left:250px;
+    box-shadow: aqua 2px 2px 8px;
+}
+.headerSite{
+  box-shadow: black 0px 0px 7px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+}
+#tp{
+    padding: 15px;
+}
+label{
+    margin-left: 21px;
+}
+#dtNascimento{
+    margin-left: 5px;
+}
+

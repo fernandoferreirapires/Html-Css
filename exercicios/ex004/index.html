@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="shortcut icon" href="favorite.ico" type="image/x-icon">
+        <meta charset="UTF-8">
+        <title>teste ex4</title>
+    </head>
+    <body>
+        <h1>Imagens Dinâmicas</h1>
+        <p>teste esse site em várias telas diferentes, ou apenas diminua e almente a tela</p>
+        <picture>
+            <source media="(max-width: 716px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="imagem flexível">
+        </picture>
+        <h1>Adicionando audio ao site</h1>
+            <audio preload="metadata" controls loop >
+                <source src="media/emeraldseasaaronkenny - Copia.mp3" type="audio/mpeg">
+            </audio>
+    </body>
+</html>
